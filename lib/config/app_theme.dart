@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class AppTheme {
-  static const Color primaryColor = Color(0xFF0020BD);
-  static const Color secondaryColor = Color(0xFF6B7AED);
+  static const Color primaryColor = Color(0xFF2E7D32);
+  static const Color secondaryColor = Color(0xFF66BB6A);
   static const Color accentColor = Color(0xFFFFB74D);
-  static const Color backgroundColor = Color(0xFFF8F9FE);
+  static const Color backgroundColor = Color(0xFFF8F9F8);
   static const Color surfaceColor = Color(0xFFFFFFFF);
   static const Color errorColor = Color(0xFFE57373);
   static const Color successColor = Color(0xFF81C784);
@@ -18,6 +18,9 @@ class AppTheme {
   static const Color pastelGreen = Color(0xFFE8F5E9);
   static const Color pastelYellow = Color(0xFFFFF8E1);
   static const Color pastelPurple = Color(0xFFF3E5F5);
+
+  static const Color primaryColorOld = Color(0xFF0020BD);
+  static const Color secondaryColorOld = Color(0xFF6B7AED);
 
   static ThemeData get lightTheme {
     return ThemeData(
@@ -168,7 +171,7 @@ class AppTheme {
         shape: CircleBorder(),
       ),
       chipTheme: ChipThemeData(
-        backgroundColor: pastelBlue,
+        backgroundColor: pastelGreen,
         selectedColor: primaryColor,
         labelStyle: GoogleFonts.nunito(
           fontSize: 14,
